@@ -7,9 +7,9 @@ You can build the binary.hybrid.iso file using [live-build](http://packages.debi
 
 Just run:
 ``` bash
-live-build clean #only necessary if you previous ran live-build
-live-build config
-live-build build
+lb clean #only necessary if you previous ran live-build
+lb config
+lb build
 ```
 
 Burn the resulting binary.hybrid.iso to disk using whatever method you typically use.
