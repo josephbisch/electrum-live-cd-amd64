@@ -1,0 +1,6 @@
+#!/bin/sh
+
+set -e
+
+sudo echo "user ALL=(root) NOPASSWD: /sbin/shutdown" >> /etc/sudoers
+

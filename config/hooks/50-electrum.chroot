@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+sudo apt-get -y install python-qt4 python-pip python-slowaes
+sudo pip install http://download.electrum.org/Electrum-1.9.5.tar.gz#md5=e8d66b08f7d1d745e1de04a090d199c2
+

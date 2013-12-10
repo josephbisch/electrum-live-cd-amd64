@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+#sudo apt-get -y install wpasupplicant b43-fwcutter firmware-b43-installer \
+#                        firmware-ralink firmware-b43legacy-installer \
+#                        firmware-realtek ndiswrapper-utils-1.9 firmware-atheros \
+#                        zd1211-firmware firmware-brcm80211 libertas-firmware \
+#                        firmware-iwlwifi nic-wireless-modules-3.11-2-amd64-di \
+#                       wireless-tools
+#sudo echo ndiswrapper >> /etc/modules

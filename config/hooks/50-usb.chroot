@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+sudo apt-get -y install usbmount
+echo "MOUNTOPTIONS=\"sync,noexec,nodev,noatime,nodiratime\" \
+FS_MOUNTOPTIONS=\"-fstype=vfat,gid=users,uid=nobody,umask=002,sync \\
+                 -fstype=ntfs,gid=users,uid=nobody,umask=002,sync\"" >> /etc/usbmount/usbmount.conf

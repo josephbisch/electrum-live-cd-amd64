@@ -1,0 +1,8 @@
+#!/bin/sh
+
+lb config noauto \
+        --architectures amd64 \
+        --linux-flavours amd64 \
+        --distribution sid \
+        --mirror http://http.debian.net/debian \
+	"${@}"
